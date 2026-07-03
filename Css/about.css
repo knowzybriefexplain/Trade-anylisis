@@ -1,0 +1,100 @@
+/* universal styles for the About page */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: white;
+
+}
+
+
+/* Navigation Bar */
+
+
+.navbar {
+    background-color: #000000;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #333;
+   
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+    
+}
+
+.nav-links a:hover {
+    background-color: #555555a0;
+}
+
+/* Header */
+
+.headerup {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 20px;
+    border: 2px solid #333;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.headerdown {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+    margin: 0px 55px 0px 55px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.4s ease;
+}
+
+/* Main Content */
+
+h1, h2, h3 {
+   display: block;
+   text-align: center;
+}
+
+video {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border-radius: 20px;
+}

@@ -1,0 +1,162 @@
+/* universal styles for the About page */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: white;
+
+}
+
+
+/* Navigation Bar */
+
+
+.fixed {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+       padding-top: 0;
+    margin-top: 0;
+}
+
+.navbar {
+   
+        background-color: #000000;
+    /* margin: 10px; */
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #333;
+   
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+    
+}
+
+.nav-links a:hover {
+    background-color: #555555a0;
+}
+
+/* Main Content */
+
+.side {
+    margin-top: 50px;
+    height: 100%;
+    width: 15%;
+    border-right: 1px solid #777777;
+    background-color: #1a1a1a;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+}
+
+.main {
+    margin-top: 70px;
+    margin-left: 15%;
+    margin-bottom: 35px;
+    padding: 20px;
+    background-color: #000000;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.side a {
+    color: #ffffff;
+   margin: 10px ;
+  
+    text-align: center;
+    text-decoration: none;
+}
+
+/* footer */
+
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-top: 2px solid #333;
+}
+
+
+/* main */
+
+
+.img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    border: 2px solid #706b6b;
+}
+
+h2 {
+    text-align: center;
+    flex-wrap: wrap;
+    
+    color: #ffffff;
+}
+
+p {
+     text-align: center;
+    flex-wrap: wrap;
+    margin: 5px
+    color: #ffffff;
+}
+
+/* back to top */
+
+
+/* Back To Top Button */
+
+#backToTop{
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background: #d4af37;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    transition: 0.3s ease;
+    z-index: 1000;
+}
+
+#backToTop:hover{
+    background: #b89228;
+    transform: translateY(-5px);
+}

@@ -1,0 +1,230 @@
+/* Universal Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: white;
+
+}
+
+/* Navigation Bar */
+
+
+.navbar {
+    background-color: #000000;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #333;
+
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+
+}
+
+.nav-links a:hover {
+    background-color: #555555a0;
+}
+
+/* Header */
+
+.headerup {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 20px;
+    border: 2px solid #333;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.headerdown {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+    margin: 0px 55px 0px 55px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.4s ease;
+}
+
+/* .headerlinks:hover {
+    background-color: #555555a0;
+    padding: 10px;
+    border-radius: 10px;
+} */
+
+/* Main Content */
+
+.trading {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.investment {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.para {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgb(26, 25, 25);
+}
+
+.news {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 20px;
+    text-align: center;
+}
+
+hr {
+    border: 1px solid #333;
+    margin: 20px 0;
+}
+
+/* Chart Section */
+
+.chart {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.chart-links {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.chart-links:hover {
+    background-color: #555555a0;
+    color: #fff;
+}
+
+/* Social Media Section */
+
+
+.social-media-links {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.social-media-links:hover {
+    background-color: #555555a0;
+    color: #fff;
+    border-radius: 10px;
+}
+
+/* footer */
+
+footer {
+    background: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+
+}
+
+footer p {
+    margin: 6px 0;
+}
+
+/* card section */
+
+.card {
+    margin: 20px;
+    background-color: #000000;
+    border: 2px solid #333;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    max-width: 100%;
+    transform: 0.8s;
+}
+
+
+.display {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.card:hover {
+    background-color: #555555a0;
+    color: #fff;
+    border-radius: 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+/* disclaimer */
+.dis {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgb(41, 19, 19);
+}

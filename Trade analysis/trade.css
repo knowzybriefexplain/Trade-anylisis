@@ -110,53 +110,28 @@ footer {
 
 /* main */
 
-
 .img {
     width: 100%;
-    height: auto;
-    margin-bottom: 20px;
-    margin-top: 30px;
-    border: 2px solid #706b6b;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid wheat;
 }
 
-h2 {
+h2{
+    text-align: start;
+    color: grey;
+    margin: 15px;
+   
+}
+
+.overview {
+    display: flex;
+    justify-content: space-between;
     text-align: center;
-    flex-wrap: wrap;
-    
-    color: #ffffff;
+    margin: 20px;
+   
+   
 }
 
-p {
-     text-align: center;
-    flex-wrap: wrap;
-    margin: 5px
-    color: #ffffff;
-}
-
-/* back to top */
 
 
-/* Back To Top Button */
-
-#backToTop{
-    position: fixed;
-    bottom: 25px;
-    right: 25px;
-    width: 50px;
-    height: 50px;
-    border: none;
-    border-radius: 50%;
-    background: #d4af37;
-    color: #fff;
-    font-size: 24px;
-    cursor: pointer;
-    display: none;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-    transition: 0.3s ease;
-    z-index: 1000;
-}
-
-#backToTop:hover{
-    background: #b89228;
-    transform: translateY(-5px);
-}

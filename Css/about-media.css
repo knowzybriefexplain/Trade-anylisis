@@ -1,39 +1,141 @@
-@media screen and (max-width: 768px) {
+/* ===========================
+   Responsive Design
+=========================== */
 
-    .navbar {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 10px 15px;
-        flex-wrap: wrap;
+/* Tablets */
+@media (max-width: 992px) {
+
+    header {
+        padding: 70px 20px;
     }
 
-    .nav-links {
-        padding: 0;
-        margin: 0;
+    h1 {
+        font-size: 2.5rem;
     }
 
-    .nav-links li {
-        list-style: none;
-    }
-
-    video {
-        width: 100%;
-        max-width: 400px;
-        height: auto;
-        display: block;
-        margin: 20px auto;
-    }
-
-    h1,
-    h2 {
-        text-align: center;
+    .lead {
+        font-size: 1rem;
         padding: 0 10px;
+    }
+
+    section {
+        padding: 50px 6%;
+    }
+
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 18px;
+    }
+
+    blockquote {
+        font-size: 1.4rem;
     }
 }
 
-h3 {
-    text-align: center;
-display: none;
-    padding: 0 10px;
+
+/* Mobile */
+@media (max-width: 768px) {
+
+    header {
+        padding: 60px 20px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 1.1rem;
+    }
+
+    .lead {
+        font-size: 0.95rem;
+        line-height: 1.7;
+    }
+
+    section {
+        padding: 45px 20px;
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .card {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .btn {
+        display: inline-block;
+        width: auto;
+        padding: 12px 24px;
+        font-size: 15px;
+    }
+
+    blockquote {
+        font-size: 1.2rem;
+        line-height: 1.6;
+    }
+
+    footer {
+        padding: 20px;
+        font-size: 14px;
+    }
+}
+
+
+/* Small Mobile */
+@media (max-width: 480px) {
+
+    header {
+        padding: 50px 15px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    .lead {
+        font-size: 0.9rem;
+    }
+
+    section {
+        padding: 35px 15px;
+    }
+
+    .card {
+        padding: 18px;
+        border-radius: 12px;
+    }
+
+    .btn {
+        width: 100%;
+        max-width: 250px;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    blockquote {
+        font-size: 1.05rem;
+        padding: 0 10px;
+    }
+
+    footer {
+        font-size: 13px;
+    }
 }

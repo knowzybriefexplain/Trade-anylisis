@@ -1,175 +1,130 @@
 /* ===========================
-   Mobile Responsive (768px)
-=========================== */
+   Mobile Responsive CSS
+   =========================== */
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
 
-    /* Navigation */
+    * {
+        box-sizing: border-box;
+    }
 
-    nav {
+    body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    /* Navbar */
+
+    .navbar {
         display: flex;
-        flex-direction: space-between;
+        flex-direction: column;
         align-items: center;
-        padding: 10px;
-        gap: 10px;
-        
+        justify-content: center;
+        padding: 15px;
+        gap: 12px;
+        text-align: center;
     }
 
-    nav img {
-        width: 45px;
-        height: 45px;
+    .navbar img {
+        width: 120px;
+        height: auto;
     }
 
-    nav h3 {
-        display: none;
-        font-size: 24px;
+    .lists {
+        margin: 0;
+        padding: 0;
+    }
+
+    .lists li {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
     }
 
     .nav-links {
-        display: flex;
-        justify-content: flex-end;
-        width: 100%;
-        padding: 0;
-        margin-top: 10px;
-    }
-
-    .nav-links li {
-        list-style: none;
-    }
-
-    .nav-links a {
-        font-size: 18px;
+        font-size: 16px;
+        text-decoration: none;
+        padding: 8px 0;
     }
 
     /* Header Cards */
 
-    .headerup {
+    .header {
+        margin-top: 115px;
         display: flex;
         flex-direction: column;
+        gap: 18px;
+        padding: 20px 15px;
+    }
+
+    .title {
+        width: 100%;
+        min-height: 70px;
+        display: flex;
+        justify-content: center;
         align-items: center;
-        gap: 25px;
-        margin-top: 20px;
+        border-radius: 12px;
     }
 
-    .headerup img {
-        width: 90px;
+    .title a {
+        width: 100%;
+        text-align: center;
+        padding: 18px;
+        font-size: 18px;
     }
 
-    /* Header Links */
+    /* Why Quntra */
 
-    .headerdown {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 15px;
-        list-style: none;
-        margin-top: 20px;
-    }
-
-    .headerlinks {
-        font-size: 20px;
-    }
-
-    /* Paragraph Sections */
-
-    /* .para {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
+    .why-quntra {
+        width: 100%;
+        margin: 0px ;
         padding: 20px;
     }
 
-    .para section {
-        width: 100%;
+    .why {
+        font-size: 30px;
         text-align: center;
+        margin-bottom: 25px;
     }
 
-    .para p {
-        font-size: 17px;
+    .sub-heading {
+        font-size: 22px;
+        margin-top: 25px;
+    }
+
+    .para {
+        font-size: 16px;
+        line-height: 1.8;
+        text-align: justify;
+    }
+
+    /* Disclaimer */
+
+    .dis {
+        width: 92%;
+        margin: 25px auto;
+        padding: 15px;
+    }
+
+    .dis p {
+        font-size: 14px;
         line-height: 1.6;
-    } */
-
-    /* Chart Section */
-
-    .chart {
-        
-        font-size: 24px;
         text-align: center;
-        padding: 0 10px;
-    }
-
-    .chart-links {
-        display: flex;
-        flex-direction: space-between;
-        align-items: center;
-        gap: 12px;
-        list-style: none;
-        margin-top: 20px;
-    }
-
-    .chart-links a {
-        font-size: 18px;
-    }
-
-    /* Social Media */
-
-    .social-media {
-        margin-top: 30px;
-    }
-
-    .social-media-links {
-        display: flex;
-        flex-direction: space-between;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        gap: 15px;
-        list-style: none;
-    }
-
-    .social-media-links a {
-        font-size: 18px;
     }
 
     /* Footer */
 
     footer {
         text-align: center;
-        padding: 20px;
+        padding: 20px 10px;
     }
 
     footer p {
-        font-size: 15px;
-        line-height: 1.6;
+        font-size: 14px;
     }
 
-    /* Images */
-
-    img {
-        max-width: 100%;
-        height: auto;
-    }
-
-}
-
-/* card */
-
-
-/* .display-cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-    margin: 20px;
-} */
-
-
-.card {
-    width: 100%;
-    background-color: #000000;
-    color: white;
-    /* padding: 15px;
-    margin: 15px; */
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
